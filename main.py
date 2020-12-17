@@ -7,13 +7,13 @@ from kivy.uix.gridlayout import GridLayout
 class Test(App):
     def __init__(self):
         App.__init__(self)
-        self.sound_clap = SoundLoader.load("sound1.wav")
+        self.sound_clap = SoundLoader.load("sound1.ogg")
         self.sound_clap.volume = 0.3
-        self.sound_crash = SoundLoader.load("sound2.wav")
+        self.sound_crash = SoundLoader.load("sound2.ogg")
         self.sound_crash.volume = 0.3
-        self.sound_timend = SoundLoader.load("sound3.wav")
+        self.sound_timend = SoundLoader.load("sound3.ogg")
         self.sound_timend.volume = 0.3
-        self.sound_kick = SoundLoader.load("sound4.wav")
+        self.sound_kick = SoundLoader.load("sound4.ogg")
         self.sound_kick.volume = 0.3
 
     def clap(self, *args):
